@@ -1,0 +1,146 @@
+pwd
+ls
+man ls
+ls -l
+ls 
+ls -l
+cd ..
+man ls
+ls -a
+cd /
+ls -la
+cd etc/
+ls -l
+cd ..
+ls
+pwd
+exit
+ls -l
+ssh-keygen 
+cd
+pwd
+ls -la
+cd .shh
+cd .ssh
+ls -la
+cat id_rsa.pub 
+sudo apt install git
+git --version
+pwd
+git --versionpwdpppppooooooooooooooooooooooiioioooooooooooooooo
+pwd
+ls -la
+cd .ssh
+ls -la
+cat id_rsa.pub 
+sudo apt install git
+git --version
+git clone git@github.com:karenlencina/TP_AySO_Karen_Lencina.git
+ls -la
+cd
+cp README
+pwd
+cp README TP_AySO_Karen_Lencina/
+cd ~/.ssh
+ls
+cp ~/README TP_AySO_Karen_Lencina/
+cd TP_AySO_Karen_Lencina/
+ls -la
+git status
+git add README
+git commit -m "primer commit"
+git config --global user.name "Karen Lencina
+git config --global user.email "karenlencinautn@gmail.com"
+git commit -m "primer commit"
+ls
+git status
+cd repogit
+git status
+ls - la
+ls -la
+cd UTN-FRA_SO_onBording/
+git status
+git push origin master
+git remote -v
+cd ~
+pwd
+rm -rf repogit
+mkdir repogit
+cd repogit
+cd ~/repogit
+git clone git@github.com:karenlencina/TP_AySO_Karen_Lencina.git
+cd TP_AySO_Karen_Lencina/
+git status
+touch README.md
+git add README.md
+git commit -m "Mi primer commit"
+git config --global user.name "karenlencina"
+git commit -m "primer commit"
+git push origin main
+cat /etc/passwd
+man grep
+grep UBUNTU /etc/passwd
+grep ubuntu /etc/psswd
+grep ubuntu /etc/passwd
+grep -i Ubuntu /etc/passwd
+grep -i Ubuntu /etc/passwd | awk -F: '{print $2}' > datos_usuario.txt
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git push
+grep "model name" /proc/cpuinfo | head -n1 > info_pc.txt
+cat info_pc.txt
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+git push
+mv datos_usuario.txt datos_usuarios.txt
+git add .
+git commit -m "fix: corrigiendo nombre archivo datos_usuarios"
+git push
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+cat lista_ordenada 
+git add .
+git commit -m "mensaje"
+git push
+git commit -m "ADD: Listado de usuarios ordenada"
+git push
+ls 
+git status
+cat << EOF >> README.md
+
+Alumno: Karen Lencina
+Division: 116
+Turno: Mañana
+
+EOF
+
+cat README.md 
+git add .
+git commit -m "docs: actualización README con datos del alumno"
+git push
+mkdir -p ~/TP1/{arquitectura/{Clase1,Clase2,Clase3,Clase4,Clase5},so/{Clase1,Clase2,Clase3,Clase4,Clase5,Clase6}}
+tree ~/TP1
+sudo apt install tree
+sudo apt update
+sudo apt install tree
+tree~/TP1
+tree ~/TP1
+cat << EOF > script_dir.sh
+#!/bin/bash
+mkdir -p ~/TP1/{arquitectura/{Clase1,Clase2,Clase3,Clase4,Clase5},so/{Clase1,Clase2,Clase3,Clase4,Clase5,Clase6}}
+EOF
+
+chmod +x script_dir.sh
+cat script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
+cp ~/.bash_history Historial_comandos_KarenLencina.txt
+ls
+git add .
+git commit -m "docs: agregando historial de comandos"
+git push
+nano Historial_comandos_KarenLencina.txt
+rm Historial_comandos_KarenLencina.txt
